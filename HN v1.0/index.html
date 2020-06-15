@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="./feature_pack/ui/icon.png">
+<title>Happy Nature</title>
+</head>
+
+<body id="bg">
+<h1 align="center">HAPPY NATURE <sub>v1.0</sub></h1>
+<p align="center">by Ben Chak and Tony Lok</p>
+<hr>
+
+<div id="Form">
+<button onclick="validation()">Start Game</button>
+<select id="Difficulty">
+	<option value=0>Peaceful</option>
+	<option value=1>Easy</option>
+	<option value=2>Normal</option>
+	<option value=3>Hard</option>
+</select>
+<label><b>|</b> Player name:</label><input type="text" id="Name" value="Chris Wong">
+<label><b>|</b> Score:</label><input type="text" id="Score" value="0" disabled>
+<input type="checkbox" id="BGM_on" onchange="BGM_switch()" unchecked>BGM on?</input>
+<label><b>|</b> Survival time:</label><input type="text" id="Time" value="0" disabled>
+</div>
+
+<canvas id="cv" align="center"></canvas>
+
+<audio id="bgm" loop hidden muted>
+    <source src="./sound_pack/BGM.mp3" type="audio/mpeg"/>
+</audio>
+</body>
+
+<style>
+	body {
+		background-color: black;
+		margin: 0;
+	}
+	
+	h1 {
+		color: white;
+		font-family: arial;
+		letter-spacing: 3px;
+	}
+	p {
+		color: white;
+	}
+	
+	#Form {
+		color: white;
+		display: inline;
+	}
+	
+	#cv {
+		border: 2px solid white;
+		width: 99%;
+		height: 100%;
+	}
+</style>
+
+<script src="./script/main.js"></script>
+
+</html>
+
+<!-- Credit to James Simpson of GoldFire Studios's CanvasInput-master -->
