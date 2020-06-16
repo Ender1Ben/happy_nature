@@ -1,6 +1,8 @@
 # Happy Nature
 A website with a game created by **Ben Chak** and **Tony Lok**, currently available in http://www.happynature.nets.hk.
 
+***!!! Note that you should use a computer and a web browser other than IE or Edge !!!***
+
 How to play:
 
 1. Modify your map difficulty, player name and whether to play background music on the toolbar.
