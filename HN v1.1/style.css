@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-family: arial;
+  letter-spacing: 3px;
+}
+p {
+  color: white;
+}
+#github:link {
+  color: white;
+}
+#github:visited {
+  color: white;
+}
+#github:hover {
+  color: lightgreen;
+}
+#github:active {
+  color: darkgreen;
+}
+
+#Form {
+  color: white;
+  display: inline;
+}
+
+#cv {
+  border: 2px solid white;
+  width: 99%;
+  height: 100%;
+}
