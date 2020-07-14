@@ -1,5 +1,5 @@
 # Happy Nature
-A website with a game created by **Ben Chak** and **Tony Lok**, currently available in https://happynature.nets.hk.
+A website with a game created by **Ben Chak** and **Tony Lok**, currently available in http://happynature.nets.hk or https://happynature.freevar.com
 
 ***!!! Note that you should use a computer and a web browser other than IE or Edge !!!***
 
